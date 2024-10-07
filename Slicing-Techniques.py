@@ -6,5 +6,16 @@ print(temperatures[7:14])
 # Had to redo the slice because I had it original set to [8:15]
 
 # Task 2: Extract the temperatures above 100.
-print(len(temperatures))
-#temp_100_and_up = temperatures.append([1])
+"""temp_100_and_above = []
+
+for temp in temperatures[20:]:
+    if temp >= 100:
+        temp_100_and_above.append(temp)
+        print(temp_100_and_above)
+# Used a for loop to iterate ove the list and then a if statement to append each individual item 100 or above to my new empty list.
+"""
+
+print(temperatures[23:])
+
+# I could have just did a simple slice of:
+# print(t)
